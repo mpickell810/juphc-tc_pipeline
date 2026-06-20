@@ -18,4 +18,5 @@ spec:
     persistentVolumeClaim:
       claimName: pipelinerun-pvc
   - name: dockerconfig-ws
-    secretName: docker-reg-creds
+    secret:
+      secretName: docker-reg-creds
