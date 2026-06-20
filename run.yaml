@@ -3,7 +3,7 @@ kind: PipelineRun
 metadata:
   generateName: juphc-tc-pipeline-run-
 spec:
-  serviceAccountName: pipeline-workspace
+  serviceAccountName: pipeline
   pipelineRef:
     name: juphc-tc-pipeline
   params:
